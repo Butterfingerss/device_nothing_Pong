@@ -11,11 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from Pong device
 $(call inherit-product, device/nothing/Pong/device.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common blaze stuff
+$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_Pong
+PRODUCT_NAME := blaze_Pong
 PRODUCT_DEVICE := Pong
 PRODUCT_MANUFACTURER := nothing
 PRODUCT_BRAND := Nothing
@@ -44,3 +44,7 @@ BUILD_FINGERPRINT := Nothing/Pong/Pong:12/SKQ1.230722.001/2406280430:user/releas
 # Flags
 TARGET_HAS_UDFPS := true
 TARGET_ENABLE_BLUR := true
+BLAZE_BUILD_TYPE := UNOFFICIAL
+BLAZE_MAINTAINER := Butterfingers
+TARGET_UDFPS_ANIMATIONS := true
+WITH_GAPPS := true
