@@ -28,8 +28,6 @@ git clone https://github.com/AgBKartikey/hardware_dolby.git -b DM hardware/dolby
 
 echo 'DONE'
 
-echo 'DONE'
-
 echo 'Picking build/soong Commits'
 # build/soong
 cd build/soong
