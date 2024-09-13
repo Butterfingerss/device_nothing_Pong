@@ -22,12 +22,6 @@ git clone https://github.com/AgBKartikey/packages_apps_ParanoidGlyphPhone2.git p
 
 echo 'DONE'
 
-echo 'Cloning Dolby Repo'
-# hardware/dolby
-git clone https://github.com/AgBKartikey/hardware_dolby.git -b DM hardware/dolby
-
-echo 'DONE'
-
 echo 'Picking build/soong Commits'
 # build/soong
 cd build/soong
