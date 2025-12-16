@@ -352,6 +352,10 @@ PRODUCT_PACKAGES += \
 # Project ID Quota
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
+# Aperture auxiliary camera overlay
+PRODUCT_PACKAGES += \
+    Phone2Aperture
+
 # Glyph
 PRODUCT_PACKAGES += \
     ParanoidGlyphPhone2 \
