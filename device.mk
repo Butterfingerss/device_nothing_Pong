@@ -531,13 +531,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     firmware_wlanmdsp.otaupdate_symlink \
     firmware_wlan_mac.bin_symlink \
-    firmware_WCNSS_qcom_cfg.ini_symlink 
+    firmware_WCNSS_qcom_cfg.ini_symlink
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/nothing/Pong/Pong-vendor.mk)
-
-# Remove unwanted packages
-ifeq ($(TARGET_USE_REMOVEPACKAGE),true)
-PRODUCT_PACKAGES += \
-    RemovePackages
-endif
+$(call inherit-product-if-exists, vendor/nothing/camera/nothing-camera.mk)
