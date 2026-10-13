@@ -3,3 +3,15 @@ ro.camerax.extensions.enabled=true
 log.tag.CHIUSECASE=ERROR
 vendor.camera.aux.packagelist=org.lineageos.aperture,com.instagram.android,com.snapchat.android,com.nothing.camera
 persist.vendor.camera.privapp.list=com.nothing.camera
+
+
+ro.mist.display=1080×2412, 120 hz
+ro.mist.battery=4700mah
+ro.mist.soc=Snapdragon 8+ gen1 (4nm)
+ro.mist.camera=50 MP Sony IMX890 (f/1.88, OIS)
+ro.mist.front=32 MP Sony IMX615 (f/2.45)
+ro.mist.platform=SM8475
+ro.mist.screen=6.7-inch FHD+ LTPO OLED
+ro.mist.device.name=nothing phone 2
+
+
