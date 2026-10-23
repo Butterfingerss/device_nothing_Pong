@@ -12,6 +12,7 @@ hal_client_domain(vendor_hal_camera_default, vendor_hal_perf)
 allow vendor_hal_camera_default {
     gpu_device
     tee_device
+    qcom_dma_heap_device
     dmabuf_system_heap_device
     ion_device
     vendor_dmabuf_system_heap_device

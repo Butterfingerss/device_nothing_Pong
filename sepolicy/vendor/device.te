@@ -3,3 +3,5 @@ type fingerprint_device, dev_type;
 
 # Vibrator
 type aac_richtap_device, dev_type;
+
+type qcom_dma_heap_device, dev_type;

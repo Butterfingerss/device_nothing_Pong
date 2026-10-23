@@ -311,7 +311,8 @@ PRODUCT_COPY_FILES += \
 
 # Nothing-fwk
 PRODUCT_PACKAGES += \
-    nothing-fwk
+    nothing-fwk \
+    vendor.noth.hardware.camera-service
 
 PRODUCT_BOOT_JARS += \
     nothing-fwk

@@ -2116,3 +2116,9 @@ system_ext/lib64/libwfduibcsrcinterface.so|0e32acc87c8518e8ebb44f6ef341a2e278e1e
 system_ext/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so|2b2563450ad6a8d46d5648b97f63f87c5d9983ca
 system_ext/lib64/vendor.qti.hardware.wifidisplaysession_aidl-V2-ndk.so|b2f864d6ae621758bef6f4081af353e2e11e04d8
 system_ext/priv-app/WfdService/WfdService.apk|b8a1d9f83804d274fab6e09e0607082801207f60
+
+# Critical Remasoid and Chi Pipeline Libraries
+vendor/lib64/libarcsoft_remosaic.so
+vendor/lib64/libmmcamera_remosaic.so
+vendor/lib64/libcamxchiusecasecustomremosaic.so
+vendor/lib64/com.qti.chi.override.so

@@ -40,3 +40,5 @@ disablePreFlashOnForTouchAE=TRUE
 traceGroupsEnable=0x90282
 enableFDFullStreamDimension=FALSE
 logWarningMask=0xF1FFFFFF
+multiCameraEnable=1
+flushStatsBuffer=1
