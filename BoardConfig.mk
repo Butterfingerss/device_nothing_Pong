@@ -261,7 +261,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 # Include the proprietary files BoardConfig.
 include vendor/nothing/Pong/BoardConfigVendor.mk
 
--include vendor/qcom/common/vendor/adreno/s/BoardConfigVendor.mk
 
 # Camera
 TARGET_USES_QTI_CAMERA_DEVICE := true
