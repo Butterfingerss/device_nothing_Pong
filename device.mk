@@ -542,8 +542,6 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, vendor/nothing/Pong/Pong-vendor.mk)
 $(call inherit-product-if-exists, vendor/nothing/camera/nothing-camera.mk)
 
-# Qualcomm common Adreno S
-$(call inherit-product-if-exists, vendor/qcom/common/vendor/adreno/s/adreno-vendor.mk)
 
 # Camera overrides
 PRODUCT_COPY_FILES += \
