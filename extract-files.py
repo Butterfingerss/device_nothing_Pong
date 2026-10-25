@@ -111,13 +111,6 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
     'vendor/etc/init/vendor.noth.hardware.camera-service.rc':
         blob_fixup().regex_replace(r'\bNtCamAlgoCapacity\b', 'CameraServiceCapacity'),
-    (
-        'vendor/lib64/libntofflinepostproc.so',
-        'vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so',
-    ): blob_fixup().replace_needed(
-        'vendor.qti.hardware.camera.postproc@1.0.so',
-        'vendor.qti.hardware.camera.postproc@1.0-nothing.so',
-    ),
 }  # fmt: skip
 
 module = ExtractUtilsModule(

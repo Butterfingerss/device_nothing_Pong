@@ -744,7 +744,7 @@ vendor/lib64/vendor.noth.hardware.camera-service-impl.so
 vendor/lib64/vendor.noth.hardware.camera-V1-ndk_platform.so
 vendor/lib64/vendor.qti.hardware.camera.aon@1.0-service-impl.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so:vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-nothing.so;FIX_SONAME
+vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so
 
 # Camera firmware
 vendor/firmware/CAMERA_ICP.b00
