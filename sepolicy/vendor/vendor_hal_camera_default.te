@@ -51,3 +51,17 @@ binder_call(hal_camera_default, vendor_hal_camera_default)
 # Persistent camera data.
 allow vendor_hal_camera_default vendor_data_file:dir create_dir_perms;
 allow vendor_hal_camera_default vendor_data_file:file create_file_perms;
+
+# Qualcomm camera postproc service IPC
+allow vendor_hal_camera_default vendor_hal_camera_postproc_hwservice:hwservice_manager find;
+
+# Access to GPU / kgsl sysfs for offline post-processing nodes
+allow vendor_hal_camera_default {
+    sysfs_kgsl
+    vendor_sysfs_kgsl
+}:dir r_dir_perms;
+
+allow vendor_hal_camera_default {
+    sysfs_kgsl
+    vendor_sysfs_kgsl
+}:file rw_file_perms;
