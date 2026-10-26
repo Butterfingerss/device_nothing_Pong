@@ -3,7 +3,6 @@ enableCameraSOISMask=0x1
 SOISOptimizationEnable=TRUE
 enableSensorRemosaic=1
 remosaicEnabled=1
-forceHighResolution=1
 allowHighResolutionSizes=1
 FDClient=FDHWHybrid
 enable3ADebugData=FALSE
