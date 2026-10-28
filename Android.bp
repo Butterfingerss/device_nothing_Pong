@@ -34,3 +34,11 @@ install_symlink {
     installed_location: "firmware/wlan/qca_cld/qca6490/WCNSS_qcom_cfg.ini",
     symlink_target: "/vendor/etc/wifi/qca6490/WCNSS_qcom_cfg.ini",
 }
+prebuilt_hidl_interfaces {
+    name: "hidl_vendor_qti_hardware_camera_postproc_interface",
+    interfaces: [
+        "vendor.qti.hardware.camera.postproc@1.0::IPostProcService",
+        "vendor.qti.hardware.camera.postproc@1.0::IPostProcServiceCallBacks",
+        "vendor.qti.hardware.camera.postproc@1.0::IPostProcSession",
+    ],
+}
