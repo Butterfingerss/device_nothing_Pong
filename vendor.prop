@@ -265,3 +265,8 @@ wifi.aware.interface=wifi-aware0
 
 # Zygote
 zygote.critical_window.minute=10
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.nothing.camera,com.nothing.ois.cal,com.tools.cit,com.tools.runin
+persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.nothing.camera
+ro.camera.notify_nfc=1
+ro.camera.default_app_social_media_parity_enabled=true
+ro.camerax.extensions.enabled=true
